@@ -1,0 +1,349 @@
+@font-face {
+    font-family: century;
+    src: url("../../fonts/Century-Gothic.ttf");
+}
+@font-face {
+    font-family: Bebas-Bold;
+    src: url("../../fonts/BebasNeueBold.ttf");
+}
+@font-face {
+    font-family: Bebas-Book;
+    src: url("../../fonts/BebasNeueBook.ttf");
+}
+@font-face {
+    font-family: Bebas-Regular;
+    src: url("../../fonts/BebasNeueRegular.ttf");
+}
+*{
+    font-family: century;
+}
+h2{
+    color: #87868a;
+    text-transform: uppercase;
+    font-family: Bebas-Bold;
+}
+h3{
+    font-family: Bebas-Regular;
+    font-weight: bold;
+}
+.flex{
+	display: flex;
+}
+
+/* Banner */
+.banner{
+    flex-flow: column;
+    height: 100vh;
+}
+.ImgFlash{
+    width: 100%;
+    height: 80vh;
+    background: url(../../img/snapshot/flash.gif) center no-repeat;
+    background-size: contain;
+}
+.shared{
+    width: 55px;
+    height: 55px;
+    background: #DFE0DE;
+    color: #fff;
+    font-size: 19pt;
+    left: 40px;
+    position: absolute;
+}
+.angleDown{
+    width: 100%;
+    justify-content: center;
+}
+.grande{
+    height: 100% !important;
+}
+.openGraf1, .openGraf2{
+    height: 750px !important;
+}
+.openGraf3, .openGraf4{
+    height: 390px !important;
+}
+.angleDown i{
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    color: #DFE0DE;
+    font-size: 24pt;
+    display: flex;
+    border: solid 2px #DFE0DE;
+    align-self: center;
+}
+.shared, .angleDown  i{
+   border-radius: 50%;
+   justify-content: center;
+   align-items: center;
+}
+.banner-footer{
+    margin-top: 30px;
+}
+/* Banner */
+
+/* Seccion 2 */
+.contenedor{
+    flex-flow: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 40px 0px;
+}
+.contenido2{
+    width: 643px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    margin: auto;
+}
+.cont2Div{
+    width: 611px;
+}
+.rotarFlecha{
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+.imgSlide1{
+    width: 100%;
+    height: 521px;
+    background: url(../../img/snapshot/seccion2/slide1.gif) center no-repeat;
+    background-size: contain;
+}
+
+/* Seccion 3 */
+.papper{
+    width: 100%;
+    height: 100vh;
+}
+.gifPaper{
+    background: url(../../img/snapshot/seccion3/1.gif) center no-repeat;
+    width: 100%;
+    height: 580px;
+    background-size: contain;
+    /*display: none;*/
+}
+.expandir{
+    height: 2440px;
+}
+/* Seccion 4 */
+.certified{
+    background: #f9f9f9;
+    justify-content: center;
+    align-items: center;
+}
+.certif-col1{
+    flex: 1.5;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+.certif-col1 p{
+    width: 60%;
+    margin-bottom: 16px;
+    color: #99989b;
+}
+.certif-col1 b{
+    color: #009347;
+    font-weight: bold;
+}
+.certif-col2{
+    flex:1;
+}
+.certif-col2 img{
+    width: 100%;
+}
+/* Seccion 5 */
+.cepiFigures{
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+}
+.cepiFigures h2{
+    font-size: 34pt;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.figureCepi{
+    background: url(../../img/snapshot/seccion5/1.svg) center no-repeat;
+    width: 1100px;
+    height: 500px;
+    background-size: contain;
+}
+#count1, #count2, #count3, #count4, #count5, #count5P, #count6, #count7, #count8, #count9, #count10{
+    position: absolute;
+    font-weight: bold;
+    font-family: Bebas-Regular;
+}
+#count1{
+    margin-left: 198px;
+    font-size: 53pt;
+    margin-top: 37px;
+    color: #51a332;
+}
+#count2{
+    margin-top: 157px;
+    margin-left: 198px;
+    font-size: 21pt;
+    color: #009347;
+}
+#count3{
+    margin-top: 157px;
+    margin-left: 285px;
+    font-size: 21pt;
+    color: #009347;
+}
+#count4{
+    margin-top: 201px;
+    margin-left: 73px;
+    font-size: 19pt;
+    color: #009347;
+}
+#count5{
+    margin-top: 274px;
+    margin-left: 177px;
+    font-size: 47pt;
+    color: #6aa242;
+}
+
+#count6{
+    margin-top: 408px;
+    margin-left: 219px;
+    font-size: 43pt;
+    color: #2f7cba;
+}
+#count7{
+    margin-left: 749px;
+    margin-top: 56px;
+    font-size: 46pt;
+    color: #8cc640;
+}
+#count8{
+    margin-top: 165px;
+    margin-left: 994px;
+    font-size: 45pt;
+    color: #6cbd56;
+}
+#count9{
+    margin-top: 265px;
+    margin-left: 859px;
+    color: #6aa242;
+    font-size: 45pt;
+}
+#count10{
+    margin-top: 420px;
+    margin-left: 826px;
+    font-size: 42pt;
+    color: #005eb8;
+}
+.cepFig-pie{
+    justify-content: center;
+    align-items: center;
+    width: 651px;
+    margin-top: 40px;
+}
+.cepFig-pie p{
+    color: #87868a;
+}
+.cepFig-pie img{
+    height: 60px;
+}
+
+/* Seccion 6 */
+.keyStatistics{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.key-col1{
+    flex: 1;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.key-col1 h2{
+    font-size: 30pt;
+    margin-bottom: 25px;
+}
+.key-col1 p{
+    width: 75%;
+    color: #87868a;
+    margin-bottom: 6px;
+    line-height: 22px;
+    text-align: center;
+}
+.key-col1 a{
+    color: #009347;
+    font-weight: bold;
+}
+.key-col2{
+    flex:1;
+}
+.key-col2 img{
+    width: 90%;
+}
+footer{
+    background: #f4f4f4;
+    justify-content: center;
+    height: 260px;
+}
+.footer-col1, .footer-col2{
+    margin-top: 40px;
+    flex: 1;
+    margin-bottom: 20px;
+}
+.footer-col1{
+    border-right: solid 2px #9e9b9b;
+}
+.footer-col1 h2, .footer-col2 h2{
+    text-align: center;
+    font-size: 26pt;
+}
+.ft-int-col1 p, .ft-int-col2 p, .footer-col2 p{
+    color: #87868a;
+}
+.int-ftr{
+    justify-content: center;
+}
+.ft-int-col1{
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.ft-int-col1 p, .ft-int-col2 p{
+    margin-bottom: 15px;
+}
+.ft-int-col2{
+    margin-top: 30px;
+}
+.footer-col2{
+    flex-flow: column;
+    align-items: center;
+}
+.footer-col2 p{
+    margin-top: 30px;
+}
+.slOrient{
+    left: 8px;
+    transform: rotate(180deg);
+}
+#grafica1 .highcharts-button, #grafica1 .highcharts-grid, #grafica1 .highcharts-axis, #grafica1 .highcharts-credits{
+    display: none;
+}
+#grafica2 .highcharts-button, #grafica2 .highcharts-grid, #grafica2 .highcharts-axis, #grafica2 .highcharts-credits{
+    display: none;
+}
+#grafica3 .highcharts-button, #grafica3 .highcharts-grid, #grafica3 .highcharts-axis, #grafica3 .highcharts-credits{
+    display: none;
+}
+#grafica4 .highcharts-button, #grafica4 .highcharts-grid, #grafica4 .highcharts-axis, #grafica4 .highcharts-credits{
+    display: none;
+}
+.footerFlecha{
+    bottom: 0px;
+    right: 0px;
+    width: 80px;
+    height: 70px;
+    cursor:hand; cursor: pointer;
+}

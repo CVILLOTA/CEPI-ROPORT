@@ -1,0 +1,283 @@
+@font-face {
+    font-family: "bebas";
+    src: url(../fonts/BebasNeueBold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "century";
+    src: url(../fonts/Century-Gothic.woff) format("woff");
+}
+@media screen and (max-width: 1190px) {
+  #titulo{
+    font-size: 4.5em;
+  }
+}
+@media screen and (max-width: 600px) {
+  #container-circle{
+    height: 300px;
+  }
+
+}
+@-webkit-keyframes rotate {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+
+}
+nav{
+  background-color: white;
+  padding-top: 3%;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+nav ul a {
+    color: black;
+}
+nav .button-collapse i {
+    font-size: 4.7rem;
+}
+nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+    z-index: 100;
+}
+select.browser-default {
+    width: auto;
+    color: #AEADB3;
+    background-color: #e0e0e0;
+}
+tbody{
+  color: green;
+}
+tbody > tr >th{
+  font-weight: normal;
+}
+tbody > tr >th >h1{
+  color: #87868A!important;
+  font-weight: bold;
+}
+tr h1{
+  color: #87868A!important;
+}
+td, th {
+    padding: 9px 5px;
+    font-size: 14px;
+}
+#body-home ul li a div #icon-home-hijo{
+  background-color: #8CC640;
+}
+#body-sustainability ul li a div #icon-sustainability-hijo{
+  background-color: #6CBD56;
+}
+#body-snapshot ul li a div #icon-snapshot-hijo{
+  background-color: #009347;
+}
+#body-market ul li a div #icon-market-hijo{
+  background-color: #6AA242;
+}
+#body-policy ul li a div #icon-policy-hijo{
+  background-color: #51A332;
+}
+#body-forest ul li a div #icon-forest-hijo{
+  background-color: #51A332;
+}
+#body-bioeconomy ul li a div #icon-bioeconomy-hijo{
+  background-color: #51A332;
+}
+#body-energy ul li a div #icon-energy-hijo{
+  background-color: #51A332;
+}
+#body-circular ul li a div #icon-circular-hijo{
+  background-color: #51A332;
+}
+#body-enviroment ul li a div #icon-enviroment-hijo{
+  background-color: #51A332;
+}
+#body-case ul li a div #icon-case-hijo{
+  background-color: #26B6CC;
+}
+#body-glosary ul li a div #icon-glosary-hijo{
+  background-color: #005EB8;
+}
+/** Título del chart **/
+#chartsSnapshot > tspan{
+  font-size: 1.6rem;
+}
+#logoCEPI-print{
+  display: none;
+}
+#pie-pagina{
+  text-align: left;
+}
+#chartsSnapshot tspan{
+  color: #87868A!important;
+}
+#slide-out{
+  background-color: #F4F4F4;
+}
+#slide-out{
+  padding-top: 1em;
+}
+#sidenav-overlay{
+opacity: 0 !importan;
+}
+#titulo{
+  line-height: 0.8em;
+}
+/**/
+.brand-logo>img{
+  width: 250px;
+}
+.brand-logo.left {
+    left: 0.5rem;
+}
+.btn-chartSnapshotIndustry, .btn-chartSnapshotProduction{
+  border: solid 2px #54a23a;
+  padding: 6px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.btn-chartSnapshotIndustry{
+  color: white;
+  background-color: #54a23a;
+}
+.btn-chartSnapshotProduction{
+  color: #54a23a;
+  background-color: white;
+}
+.buttonDownload{
+  margin-top: 15px;
+  color: #bdbdbd;
+}
+.buttonDownload > h4 > a{
+  font-size: 14px;
+  margin: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
+  color: white;
+  font-weight: bold;
+  background-color: #bdbdbd;
+  border-radius: 50%;
+}
+.container{
+    width: 90%;
+}
+.container-circle{
+  width: 100%;
+  height: 48em;
+  background-image:url(../img/circulo-rotar.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.container-circle{
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 65s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+.div-contenedor-icono-menu{
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width:2.5em;
+  height:2.5em;
+  background-color: #e0e0e0;
+}
+.div-flecha-footer{
+  position:relative;
+  padding-top: 200px;
+  text-align: right;
+}
+.div-subcontenedor-icono-menu{
+  width:2.5em;
+  padding-top: 0.4em;
+}
+.fixed-action-btn ul{
+  text-align: left;
+  bottom: 45px; left: 10px;
+}
+/** Subtitulo del Chart **/
+.highcharts-subtitle > tspan{
+
+}
+.inline{
+  display: inline;
+}
+.large-max{
+  font-size: 8 rem;
+}
+.li-menu-ppal{
+  font-size: 1.4em;
+  color: #AEADB3;
+  margin-top: 0.5em;
+}
+.li-menu-ppal-policy{
+  margin-left: 2.7em;
+  font-size: 0.9em;
+  color: #AEADB3;
+  margin-top: 0.1em;
+}
+.menu{
+  position: absolute;
+  widows: 100%;
+  right: 5px;
+}
+.pFooterHighCharts{
+  color: #DCDDDE;
+}
+.print{
+  display: none!important;
+}
+.side-nav a {
+    font-family: century !important;
+}
+.slc-sizeContainer{
+  width: 28rem;
+}
+.tablesSnapshot{
+  display: none;
+}
+.text{
+  margin-top: 12%;
+  font-family: bebas;
+  font-size: 7em;
+  color: #51A332;
+}
+.text-small{
+  margin-top: 1.5em;
+  font-family: bebas;
+  color: #51A332;
+}
+.titulo, .titulo-sustainability{
+  line-height: 0.8em;
+}
+.titulo-sustainability{
+  background-image:url(../img/background-sustainability.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.titulo-sustainability > h4{
+  padding-top: 2.8em;
+  font-family: bebas;
+  font-size: 3.5em;
+  color: #51A332;
+}
+.titulo-sustainability>p{
+  color: #AEADB3;
+  font-family: century;
+  font-size: 1.4em;
+  line-height: 1.2em;
+  text-align: justify;
+}
+.video-sustainability{
+  margin-top: 3em;
+}
+.video-sustainability > img{
+  width:90%;
+}
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.0),0 0px 0px 0 rgba(0,0,0,0.0);
+}

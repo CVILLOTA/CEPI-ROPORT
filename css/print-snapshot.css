@@ -1,0 +1,104 @@
+@media print {
+  nav{
+    display:none!important;
+  }
+  table{
+    font-size: 15px;
+    color: #87868A;
+  }
+  th{
+    font-weight: normal;
+    color: green;
+  }
+  th h1{
+    font-weight: bold!important;
+    color: #87868A;
+  }
+  #count1{
+      margin-left: 115px!important;
+      margin-top: 80px!important;
+  }
+  #count2{
+      margin-top: 170px!important;
+      margin-left: 118px!important;
+  }
+  #count3{
+      margin-top: 170px!important;
+      margin-left: 170px!important;
+  }
+  #count4{
+      margin-top: 201px!important;
+      margin-left: 26px!important;
+  }
+  #count5{
+      margin-top: 255px!important;
+      margin-left: 100px!important;
+      font-size: 40pt!important;
+  }
+  #count6{
+      margin-top: 355px!important;
+      margin-left: 137px!important;
+      font-size: 36pt!important;
+  }
+  #count7{
+      margin-top: 100px!important;
+      margin-left: 515px!important;
+      font-size: 35pt!important;
+  }
+  #count8{
+      margin-top: 185px!important;
+      margin-left: 694px!important;
+      font-size: 35pt!important;
+  }
+  #count9{
+      margin-top: 250px!important;
+      margin-left:590px!important;
+      font-size: 35pt!important;
+  }
+  #count10{
+      margin-top: 370px!important;
+      margin-left: 572px!important;
+      font-size: 35pt!important;
+  }
+  #chartsSnapshot{
+    background-color: red!important;
+  }
+  #logoCEPI-print{
+    display: inline;
+  }
+  #logoCEPI-print>img{
+    width: 200px!important;
+  }
+  .banner {
+      flex-flow: column;
+      height: 450px!important;
+      margin: 0px!important;
+      padding:0px!important;
+  }
+  .certified, .manufacturingTable{
+    page-break-before: always !important;
+  }
+  .figureCepi{
+    width: 750px!important;
+  }
+  .fixed-action-btn{
+    display:none!important;
+  }
+  .tableTitle{
+    color:#87868A;
+    font-size: 30px;
+  }
+  .tableSubTitle{
+    color:#AEADB3;
+    font-size: 20px;
+  }
+  .no-print{
+    display:none!important;
+  }
+  .print{
+    display: flex!important;
+  }
+  .tablesSnapshot{
+    display: block!important;
+  }
+}
